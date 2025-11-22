@@ -11,8 +11,8 @@ export default function ContactPage() {
     return (
         <div className="container mx-auto px-4 py-12">
             <div className="max-w-2xl mx-auto">
-                <h1 className="text-4xl font-bold text-gray-900 mb-6">Contacto</h1>
-                <p className="text-gray-600 mb-8">
+                <h1 className="text-4xl font-bold text-white mb-6">Contacto</h1>
+                <p className="text-gray-400 mb-8">
                     ¿Tienes algún proyecto en mente o quieres saludar?
                     Rellena el formulario o contáctame a través de mis redes sociales.
                 </p>
@@ -27,7 +27,7 @@ export default function ContactPage() {
                             id="name"
                             name="name"
                             required
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                            className="w-full px-4 py-2 border border-gray-300 text-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
                             placeholder="Tu nombre"
                         />
                     </div>
@@ -41,7 +41,7 @@ export default function ContactPage() {
                             id="email"
                             name="email"
                             required
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                            className="w-full px-4 py-2 border text-gray-600 border-gray-300mtext-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
                             placeholder="tu@email.com"
                         />
                     </div>
@@ -55,7 +55,7 @@ export default function ContactPage() {
                             name="message"
                             rows={5}
                             required
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                            className="w-full px-4 py-2 border border-gray-300 text-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
                             placeholder="Cuéntame sobre tu proyecto..."
                         ></textarea>
                     </div>
